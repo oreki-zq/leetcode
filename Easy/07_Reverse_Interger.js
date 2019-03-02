@@ -2,7 +2,7 @@
  * @param {number} x
  * @return {number}
  */
-const reverse = function (x) {
+let reverse = function (x) {
     const xArr = x.toString().split('');
 
     let result;
