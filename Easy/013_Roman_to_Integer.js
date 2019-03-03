@@ -25,7 +25,7 @@ let romanToInt = function(s) {
         }
     }
     return res
-}
+};
 /*
 let romanToInt = function(s) {
     let i = 0,
