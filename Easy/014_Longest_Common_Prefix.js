@@ -14,7 +14,7 @@ let longestCommonPrefix = function(strs) {
         }
     }
     return longestPre
-}
+};
 /*
 let longestCommonPrefix = function(strs) {
     let obj = {}
