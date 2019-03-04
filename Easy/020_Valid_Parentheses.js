@@ -11,7 +11,7 @@ let isValid = function(s) {
             '(': ')',
             '[': ']',
             '{': '}'
-        }
+        };
     for (let i = 0; i < s.length; i++) {
         // 左括号放入stack栈中
         if (left.indexOf(s[i]) > -1) {
